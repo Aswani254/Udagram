@@ -1,0 +1,2 @@
+#!/bin/bash
+ aws cloudformation create-stack --stack-name projectIaC3 --region us-east-1 --template-body "file://infrastructure.yml" --parameters "file://infra-parameters.json" --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM" 
