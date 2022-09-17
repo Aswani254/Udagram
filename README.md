@@ -1,11 +1,30 @@
-# CloudDevOpsND2022
+### Project Title - Deploy a high-availability web app using CloudFormation
+The task was to deploy cloud resources on AWS using cloudformation IaC.
+This folder contains the CloudFormation codes for the "ND9991 - C2- Infrastructure as Code - Deploy a high-availability web app using CloudFormation" project. The folder contains the following files:
 
-This repo holds the project submissions for Udacity's Cloud DevOps Nano Degree 2022.
+#### [Udacity Project 2 Infrastructure Diagram](infrastructure-flowchart.png)
+Infrastructure diagram (made with lucidcharts)
 
-#### [Project 1: Deploy a Static Website on AWS](./Project_1_Deploy-Static_Website_on_AWS/)
+#### [infrastructure.yml](infrastructure.yml)
+Deploys the network infrastructure.
 
-#### [Project 2: Deploy a high-availability web app using CloudFormation](./Project_2_Deploy_HA_Web_App_CloudFormation/)
+#### [infra-parameters.json](infra-parameters.json)
+Parameters for the network infrastructure
 
-#### [Project_3_CICD_Auto_Deploy_Powers](https://github.com/Babawale/Project_3_CICD_Auto_Deploy_Powers)
+In YAML code, the `${EnvironmentName}` would be substituted with `UdacityUdagramProject` accordingly.
 
-#### [Project_4_Operationalize_ML_API](https://github.com/Babawale/Project_4_Operationalize_ML_API)
+#### [servers.yml](servers.yml)
+Deploys the web servers
+
+#### [server-params.json](server-params.json)
+Parameters for the web servers
+
+#### [create.sh](create.sh)
+Script to create the CloudFormation stack
+
+#### [update.sh](update.sh)
+Script to update the CloudFormation stack
+
+
+#### [delete.sh](delete.sh)
+Script to delete the CloudFormation stack
