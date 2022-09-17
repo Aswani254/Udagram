@@ -1,6 +1,6 @@
-### Project Title - Deploy a high-availability web app using CloudFormation
+### Deploy a high-availability web app using CloudFormation
 The task was to deploy cloud resources on AWS using cloudformation IaC.
-This folder contains the CloudFormation codes for the "ND9991 - C2- Infrastructure as Code - Deploy a high-availability web app using CloudFormation" project. The folder contains the following files:
+This folder contains the CloudFormation codes for the "Infrastructure as Code - Deploy a high-availability web app using CloudFormation" project. The folder contains the following files:
 
 #### [Udacity Project 2 Infrastructure Diagram](infrastructure-flowchart.png)
 Infrastructure diagram (made with lucidcharts)
@@ -11,7 +11,7 @@ Deploys the network infrastructure.
 #### [infra-parameters.json](infra-parameters.json)
 Parameters for the network infrastructure
 
-In YAML code, the `${EnvironmentName}` would be substituted with `UdacityUdagramProject` accordingly.
+In YAML code, the `${EnvironmentName}` would be substituted with `UdagramProject` accordingly.
 
 #### [servers.yml](servers.yml)
 Deploys the web servers
