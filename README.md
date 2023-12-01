@@ -11,8 +11,6 @@ Deploys the network infrastructure.
 #### [infra-parameters.json](infra-parameters.json)
 Parameters for the network infrastructure
 
-In YAML code, the `${EnvironmentName}` would be substituted with `UdagramProject` accordingly.
-
 #### [servers.yml](servers.yml)
 Deploys the web servers
 
